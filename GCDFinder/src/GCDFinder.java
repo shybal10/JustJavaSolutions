@@ -1,3 +1,8 @@
+/**
+ * finds the Gcd of two numbers using Eucleds algorithm
+ * @author shybal
+ * @version 1.0
+ */
 public class GCDFinder {
     public static void main(String[] args) {
         System.out.println(getGcd(36,20));
