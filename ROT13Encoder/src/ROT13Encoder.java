@@ -19,7 +19,7 @@ public class ROT13Encoder {
      * @return the encrypted message of the type string
      */
     private static String encrypt(String s) {
-        int length= s.length();
+        int length = s.length();
         int index;
         int code;
         StringBuilder stringBuilder = new StringBuilder();
@@ -28,7 +28,7 @@ public class ROT13Encoder {
         for (index = 0; index < length; index++) {     //traversing each character of the message
             character = s.charAt(index);
             if(character >= 'a' && character <= 'z') {
-                code = SECRET_KEY % 26;
+                code = getCode();
                 character += code;                     //encrypting character
                 if (character > 'z') {                 //handling special cases
                     int temp = ((int) character) % 122;
@@ -37,7 +37,7 @@ public class ROT13Encoder {
 
             } else
             if(character >= 'A' && character <= 'Z') {
-                code = SECRET_KEY % 26;
+                code = getCode();
                 character += code;
                 if (character > 'Z') {
                     int temp = ((int) character) % 90;
@@ -64,7 +64,7 @@ public class ROT13Encoder {
 
             character = s.charAt(index);
             if (character >= 'a' && character <= 'z') {
-                code = SECRET_KEY % 26;
+                code = getCode();
                 character -= code;
                 if (character < 'a') {
                     int temp = 26;
@@ -73,7 +73,7 @@ public class ROT13Encoder {
             } else
 
             if (character >= 'A' && character <= 'Z') {
-                code = SECRET_KEY % 26;
+                code = getCode();
                 character -= code;
                 if (character < ('A')) {
                     int temp = 26;
@@ -83,5 +83,12 @@ public class ROT13Encoder {
             stringBuilder.append(character);
         }
         return stringBuilder.toString();
+    }
+    /**
+     * method gets the required code for encryption/decryption
+     * @return the codeof type int
+     */
+    private static int getCode(){
+        return SECRET_KEY % 26;
     }
 }
