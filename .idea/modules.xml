@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AckermanFunctionChecker/AckermanFunctionChecker.iml" filepath="$PROJECT_DIR$/AckermanFunctionChecker/AckermanFunctionChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DistanceFinder/DistanceFinder.iml" filepath="$PROJECT_DIR$/DistanceFinder/DistanceFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpnonentCalculator/ExpnonentCalculator.iml" filepath="$PROJECT_DIR$/ExpnonentCalculator/ExpnonentCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactorialCalculator/FactorialCalculator.iml" filepath="$PROJECT_DIR$/FactorialCalculator/FactorialCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GCDFinder/GCDFinder.iml" filepath="$PROJECT_DIR$/GCDFinder/GCDFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multadd/Multadd.iml" filepath="$PROJECT_DIR$/Multadd/Multadd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Palindrome/Palindrome.iml" filepath="$PROJECT_DIR$/Palindrome/Palindrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PowerCalculator/PowerCalculator.iml" filepath="$PROJECT_DIR$/PowerCalculator/PowerCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ROT13Encoder/ROT13Encoder.iml" filepath="$PROJECT_DIR$/ROT13Encoder/ROT13Encoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recurse.java/Recurse.java.iml" filepath="$PROJECT_DIR$/Recurse.java/Recurse.java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReverseString/ReverseString.iml" filepath="$PROJECT_DIR$/ReverseString/ReverseString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sample2/Sample2.iml" filepath="$PROJECT_DIR$/Sample2/Sample2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sample3/Sample3.iml" filepath="$PROJECT_DIR$/Sample3/Sample3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SquareRootFinder/SquareRootFinder.iml" filepath="$PROJECT_DIR$/SquareRootFinder/SquareRootFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TriangleChecker/TriangleChecker.iml" filepath="$PROJECT_DIR$/TriangleChecker/TriangleChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
+    </modules>
+  </component>
+</project>
